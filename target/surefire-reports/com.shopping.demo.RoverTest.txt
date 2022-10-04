@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.shopping.demo.RoverTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.shopping.demo.RoverTest
+turnsLeftantiClockWise(W,S) [1](com.shopping.demo.RoverTest)  Time elapsed: 0.004 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[S]> but was:<[W]>
+	at com.shopping.demo.RoverTest.turnsLeftantiClockWise(RoverTest.java:39)
+
+turnsLeftantiClockWise(S,E) [2](com.shopping.demo.RoverTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[E]> but was:<[W]>
+	at com.shopping.demo.RoverTest.turnsLeftantiClockWise(RoverTest.java:39)
+
+turnsLeftantiClockWise(E,N) [3](com.shopping.demo.RoverTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[N]> but was:<[W]>
+	at com.shopping.demo.RoverTest.turnsLeftantiClockWise(RoverTest.java:39)
+
